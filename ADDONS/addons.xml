@@ -1,0 +1,908 @@
+<addons>
+
+
+
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2022.04.04" provider-name="EMAD MAHDI">
+	<requires>
+		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
+		<import addon="script.module.six" optional="false"/>
+		<import addon="script.module.pil" optional="false"/>
+		<import addon="script.module.requests" optional="false"/>
+        <import addon="script.module.kodi-six" optional="false"/>
+		<import addon="script.module.youtube.dl" optional="false"/>
+		<import addon="script.module.resolveurl" optional="false"/>
+        <import addon="script.module.addon.signals" optional="false"/>
+        <import addon="script.module.beautifulsoup4" optional="false"/>
+		<import addon="inputstream.rtmp" optional="true"/>
+		<import addon="inputstream.adaptive" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="arabicvideos\__init__.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">Watch from a huge selection of Arabic Videos ...</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on. ArabicVideos is simply a Kodi Add-on that can browse videos web sites. ArabicVideos doesn’t host any content on it own server and just linking to or embedding content that was uploaded to popular Online Video hosting sites like dailymotion.com, Youtube.com, Google Drive, ZShare.net, cloudy, netu.tv and such sites. All trademarks, Videos, trade names, service marks, copyrighted work, logos referenced herein belong to their respective owners/companies. ArabicVideos is not responsible for what other people upload to 3rd party sites. We urge all copyright owners, to recognize that the links contained within this site are located somewhere else on the web or video embedded are from other various site like included above!. If you have any legal issues please contact appropriate media file owners/hosters.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="repository.emad" name="EMAD Repository" version="2021.10.29" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons from EMAD</summary>
+		<description lang="en">Download and install add-ons from EMAD</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="repository.emad.github" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from EMAD</summary>
+		<description lang="en">Download and install addons from EMAD</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="repository.emad.gitea" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from EMAD</summary>
+		<description lang="en">Download and install addons from EMAD</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="repository.emad.gitee" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from EMAD</summary>
+		<description lang="en">Download and install addons from EMAD</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="repository.emad.codeberg" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from EMAD</summary>
+		<description lang="en">Download and install addons from EMAD</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="repository.emad.others" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from other developers</summary>
+		<description lang="en">Download and install addons from other developers</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="repository.emad.pythonanywhere" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from EMAD</summary>
+		<description lang="en">Download and install addons from EMAD</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<AAAaddon id="script.module.urlresolver" name="URLResolver" version="5.0.23" provider-name="tvaddons">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+		<import addon="plugin.video.gdrive" optional="true" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+		<forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+	</extension>
+</AAAaddon>
+
+
+
+<addon id="script.module.futures"
+       name="futures"
+       version="2.2.0"
+       provider-name="Brian Quinlan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>A futures implementation for Python</summary>
+    <description>Backport of the concurrent.futures package from Python 3.2</description>
+    <platform>all</platform>
+    <license>BSD</license>
+    <source>https://code.google.com/p/pythonfutures/source/browse</source>
+    <website>https://code.google.com/p/pythonfutures</website>
+  </extension>
+</addon>
+
+
+
+<addon id="plugin.video.youtube" name="YouTube" version="6.4.1" provider-name="anxdpanic, bromix">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.six" version="1.11.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/startup.py" start="login"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+6.4.1
+[upd] Use the activation url provided by the authentication request
+[add] add Settings - MPEG-DASH - Default to WEBM adaptation set
+        - required for 4k stream automatic selection
+[add] add Settings - MPEG-DASH - Include VP9.2
+        - includes HDR content in the manifest
+[add] add support for &amp;hide_folders=true parameter in search query urls
+        - when added to the url it will hide the Playlists, Channels, and Live folders
+[add] &amp;seek=&lt;time_in_seconds&gt; to play urls
+[fix] fix playback of Purchases
+[fix] fixed saved playlists that don't belong to a channel
+[fix] mpeg-dash frame rate representation
+[fix] datetime parsing if no datetime string is available
+[chg] handle playback monitoring in threads
+[lang] nl_nl strings |contrib: MB1968|
+[lang] el_gr strings |contrib: twilight0|
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en_GB">Plugin for YouTube</summary>
+        <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
+        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
+        <summary lang="de_DE">Plugin für YouTube</summary>
+        <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl_PL">Wtyczka YouTube</summary>
+        <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+        <summary lang="hu_HU">YouTube kiegészítő</summary>
+        <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es_ES">Plugin para YouTube</summary>
+        <description lang="es_ES">YouTube es uno de los sitios web para compartir videos más grande del mundo.</description>
+        <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="es_MX">Plugin para YouTube</summary>
+        <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
+        <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="ru_RU">Видеодополнение YouTube</summary>
+        <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
+        <summary lang="fr_FR">Plugin pour YouTube</summary>
+        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+        <summary lang="zh_CN">YouTube附加元件</summary>
+        <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
+        <summary lang="zh_TW">YouTube附加元件</summary>
+        <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
+        <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
+        <summary lang="bg_BG">Добавка за YouTube</summary>
+        <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+        <summary lang="el_GR">Πρόσθετο YouTube</summary>
+        <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+        <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
+        <summary lang="nb_NO">Tillegg for YouTube</summary>
+        <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
+        <summary lang="ko_KR">유튜브 플러그인</summary>
+        <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
+        <language></language>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=325740</forum>
+        <website>https://www.youtube.com</website>
+        <email>ytplugin at datanet dot ws</email>
+        <source>https://github.com/jdf76/plugin.video.youtube</source>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+
+
+
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.44" provider-name="gujal">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="plugin.googledrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi, απλοποίηση της ανάπτυξης των προσθέτων που χρησιμοποιούν πολλαπλούς εξυπηρετητές για υλικό βίντεο</description>
+        <description lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+        <disclaimer lang="en_GB">This script only resolves video content from legitimate file lockers without prejudice. If this script is being used by 3rd parties to resolve content that you feel infringes upon your Intellectual Property then please take your complaints to the actual website or developer linking to such content and not here. This script in no way searches for any content whatsoever.</disclaimer>
+        <disclaimer lang="el_GR">Το ανωτέρο σενάριο το μόνο που κάνει είναι να επιλύει οπτικοακουστικό περιεχόμενο από νόμιμες πηγές χωρίς προκατάληψη. Εάν το ανωτέρο σενάριο χρησιμοποιηθεί από τρίτους ώστε να επιλύσει περιεχόμενο το οποίο σας προκαλεί αντίδραση ότι παραβιάζει την πνευματική σας ιδιοκτησία παρακαλώ μεταφέρετε τα παραπονά σας στον ιστότοπο τον οποίο βρίσκεται το εν λόγω περιεχόμενο η τον δημιουργό ο οποίος πραγματοποιεί την σύνδεση και όχι εδω. Το σενάριο αυτό ουδεμία περίπτωση πραγματοποιεί αναζήτηση περιεχομένου.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.22.0"
+       provider-name="kennethreitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+    <import addon="script.module.chardet" version="3.0.4"/>
+    <import addon="script.module.idna" version="2.6"/>
+    <import addon="script.module.certifi" version="2017.07.27.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python HTTP for Humans</summary>
+    <description lang="en_GB">Packed for KODI from https://pypi.org/project/requests/</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/Freso/script.module.requests</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+
+
+<addon id="resource.images.moviegenreicons.metropolisEMAD" name="Movie Genre Icons - metropolisEMAD" version="1.0.0" provider-name="EMAD MAHDI">
+	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Movie Genre Icons</summary>
+		<description lang="en">Movie Genre Icons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="resource.images.musicgenreicons.metropolisEMAD" name="Music Genre Icons - metropolisEMAD" version="1.0.0" provider-name="EMAD MAHDI">
+	<extension point="kodi.resource.images" compile="true" type="musicgenreicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Music Genre Icons</summary>
+		<description lang="en">Music Genre Icons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="skin.metropolisEMAD" version="3.0.0" name="Metropolis EMAD" provider-name="EMAD MAHDI">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.skinshortcuts" version="1.0.6"/>
+		<import addon="script.image.resource.select" version="0.1.1"/>
+		<import addon="resource.images.languageflags.completepack" version="0.0.4"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.7"/>
+		<import addon="resource.images.studios.coloured" version="0.0.8"/>
+		<import addon="resource.images.weatherfanart.prairie" version="0.0.5"/>
+		<import addon="resource.images.weathericons.coloured" version="0.0.6"/>
+		<import addon="resource.images.moviegenreicons.metropolisEMAD" version="1.0.0"/>
+		<import addon="resource.images.musicgenreicons.metropolisEMAD" version="1.0.0"/>
+		<import addon="plugin.video.arabicvideos" optional="true"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="be_BY">A Mix of Retro and Modern. Original Metropolis skin by Amra - continued by Stoli</summary>
+		<summary lang="da_DK">En blanding af retro og moderne.</summary>
+		<summary lang="de_DE">Ein Mix aus Retro und Moderne.</summary>
+		<summary lang="el_GR">Ένα μείγμα Παλαιού και Νέου. Το αρχικό κέλυφος Metropolis από τον Amra - συντήρηση και εξέλιξη από τον Stoli</summary>
+		<summary lang="en_AU">A Mix of Retro and Modern.</summary>
+		<summary lang="en_GB">A Mix of Retro and Modern.</summary>
+		<summary lang="en_NZ">A Mix of Retro and Modern.</summary>
+		<summary lang="en_US">A Mix of Retro and Modern.</summary>
+		<summary lang="es_ES">Una mezcla de Retro y Moderno.</summary>
+		<summary lang="fi_FI">Yhdistelmä vanhaa ja uutta.</summary>
+		<summary lang="fr_CA">Un mélange de rétro et de moderne</summary>
+		<summary lang="fr_FR">Un mélange de Rétro et de Moderne.</summary>
+		<summary lang="gl_ES">Unha Mestura do Retro e o Moderno.</summary>
+		<summary lang="hu_HU">Eden-re optimalizálva. A retro és modern stílus ötvözete. Az eredeti Metropolis felszín készítője: Amra -  Stoli folytatja.</summary>
+		<summary lang="it_IT">Un Mix di Retrò e Moderno.</summary>
+		<summary lang="ko_KR">복고풍과 모던함의 혼합</summary>
+		<summary lang="lt_LT">Retro ir modernaus mišinys</summary>
+		<summary lang="ms_MY">Campuran Retro dan Modern</summary>
+		<summary lang="nb_NO">En miks av retro og moderne.</summary>
+		<summary lang="nl_NL">Bijgewerkt voor Eden, een mix van retro en modern. Originele Metropolis skin door Amra - voortgezet door Stoli</summary>
+		<summary lang="pl_PL">Mieszanka tradycji z nowoczesnością.</summary>
+		<summary lang="pt_BR">Atualizada para Eden, um Mix de Retro e Modern. Skin Original Metropolis por Amra - continuada por Stoli</summary>
+		<summary lang="pt_PT">Uma Mistura de Retro e Modernidade.</summary>
+		<summary lang="ru_RU">Смесь ретро и модерна</summary>
+		<summary lang="sv_SE">En blandning av Retro och Modernt.</summary>
+		<summary lang="zh_CN">复古与现代的混合体。</summary>
+		<description lang="be_BY">Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis.</description>
+		<description lang="da_DK">Metropolis er designet til at vise så mange medier som muligt med læsbar tekst og ikoner. Alt sammen mens skin'et holdes strømlinet og simpelt at bruge for alle familiemedlemmer, med flere temaer og justerbare menuer og visninger. Tak til Hitcher for Alaska Revisited, det er blevet brugt som grundlag for Metropolis.</description>
+		<description lang="de_DE">Metropolis wurde entwickelt, um mit leicht lesbarem Text und Symbolen so viele Medien-Informationen wie möglich darzustellen. Es wird versucht die Anzeige so ausgeglichen und einfach zu halten, um für jedes Familienmitglied mit verschiedenen Themen sowie anpassbaren Menüs und Anzeigen optimal bedienbar zu sein. Dank geht an Hitcher für sein Alaska Revisited, welches als Basis für Metropolis diente.</description>
+		<description lang="el_GR">Το Metropolis είναι σχεδιασμένο να εμφανίζει κατά το δυνατόν περισσότερες πληροφορίες πολυμέσων μέσω ευανάγνωστου κειμένου και εικονιδίων. Όλα αυτά ενώ το κέλυφος παραμένει προσιτό και απλό στη χρήση από όλα τα μέλη της οικογένειας, με πολλαπλά θέματα και προσαρμόσιμα μενού και τύπους προβολής. Ευχαριστούμε τον Hitcher για το Alaska Revisited που αποτέλεσε τη βάση για το Metropolis.</description>
+		<description lang="en_GB">Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis.</description>
+		<description lang="en_NZ">Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customisable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis.</description>
+		<description lang="en_US">Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis.</description>
+		<description lang="es_ES">Metrópolis está diseñada para mostrar en lo posible toda la información del contenido con texto fácil de leer e iconos. Todo ello procurando mantener una skin suave y de fácil uso para todos los miembros de la familia, con múltiples temas, vistas y menús personalizables. Agradecimientos a Hitcher, autor de la skin Alaska Revisited, la cual se usó como base para Metrópolis.</description>
+		<description lang="fr_CA">Métropolis est conçu de façon à afficher autant d'information média que possible avec du texte et des icônes faciles à lire, tout en essayant de garder l'habillage aussi fluide et simple à utiliser pour tous les membres de la famille avec plusieurs thèmes et des menus et vues configurables. Crédit à Hitcher pour Alaska Revisité qui fut utilisé comme base pour Métropolis.</description>
+		<description lang="fr_FR">Metropolis est conçu pour afficher le plus d'informations multimédia possible avec des icônes et du texte facile à lire. Tout en essayant de conserver l'habillage doux et simple afin de pouvoir être utilisé par tous les membres de la famille, il intègre de multiples thèmes, des vues et menus personnalisables. Les crédits vont à Hitcher pour Alaska Revisited utilisé comme base pour Metropolis.</description>
+		<description lang="hu_HU">A Metropolis arra lett tervezve hogy annyi média infót jelenítsen meg amennyit csak lehet könnyen olvasható szövegekkel és ikonokkal. Mindeközben megpróbálja a felszínt annyira gördülékennyé és egyszerűvé tenni hogy a család minden tagja egyszerűen tudja használni több témával, egyedivé varázsolt menüvel és nézetekkel. Köszönet Hitcher-nek az Alaska Revisited-ért ami a Metropolis alapját adja.</description>
+		<description lang="it_IT">Metropolis è stata creata per mostrare quante più informazioni possibili con testi ed icone leggibili. Il tutto cercando di mantenere l'aspetto leggero e semplice da usare per tutti i membri della famiglia, con molti temi, menu personalizzabili e varie visualizzazioni. Un ringraziamento a Hitcher per Alaska Revisited che è stata usata come base per la creazione di Metropolis.</description>
+		<description lang="ko_KR">Metropolis는 읽기 쉬운 텍스트와 아이콘과 함께 가능한 많은 정보를 표시하도록 디자인 되었습니다. 또한 모든 가족 구성원이 각각의 테마와 사용자 설정 메뉴, 보기를 쉽고 간단하게 사용할 수 있게 유지하고자 노력하고 있습니다. Metropolis의 기초가 된 Alaska Revisited 스킨의 제작자 Hitcher에게 공을 돌립니다.</description>
+		<description lang="lt_LT">Metropolis sukurtas taip, kad atvaizduotų kaip galima daugiau media įrašų informacijos su lengvais skaitomu tekstu ir piktogramomis. Visa tai padaryta stengiantis išlaikyti sklandžią teminę išvaizdą, kurią paprasta naudoti visiems šeimos nariams, su keletu temų ir adaptuojamais meniu ir rodiniais. Padėka Hitcher už Alaska Revisited, kuri buvo panaudota kaip pagrindas kuriant Metropolis.</description>
+		<description lang="ms_MY">Metropolis direka untuk menunjukkan sebanyak mungkin maklumat media dengan cara teks dan ikon. Selain itu cuba kekalkan kelancaran kulit dan keringkasannya untuk diguna dengan pelbagai tema, menu dan paparan yang boleh disuai. Penghargaan buat Hitche atas Alaska Revisited yang mana ia digunakan sebagai dasar Metropolis.</description>
+		<description lang="nb_NO">Metropolis er utviklet for å vise så mye mediainformasjon som mulig via lettlest tekst og ikoner. Samtidig er tanken å holde temaet polert og enkelt å bruke for alle familiemedlemmer med ulike oppsett og justerbare menyer. Takk til Hitcher over hos Alaska Revisited som er brukt som en base for Metropolis.</description>
+		<description lang="nl_NL">Metropolis is ontworpen om zoveel media info als mogelijk te tonen met duidelijke tekst en iconen. Alles om de skin zo soepel en makkelijk te gebruiken door alle familieleden met meerdere thema's en aanpasbare menu's en views. Kudo's aan Hitcher voor 'Alaska Revisited', die als basis gebruikt is voor Metropolis.</description>
+		<description lang="pl_PL">Metropolis zaprojektowano by pokazywać jak najwięcej informacji o mediach z czytelnymi napisami i ikonami. A wszystko to przy zachowaniu płynności i łatwości użycia przez wszystkich członków rodziny, z wieloma motywami tematycznymi i konfigurowalnymi widokami i menu. Słowa uznania należą się Hitcherowi za skórę Alaska Revisited, która była użyta jako podstawa dla Metropolis.</description>
+		<description lang="pt_BR">Metropolis é projetado para exibir o máximo possível de informações da mídia com  textos fáceis de ler e ícones. Tudo ao mesmo tempo tentando manter a pele rápida e simples de usar para todos os membros da família com vários temas e menus customizáveis ​​e modos de visualização. Crédito para Hitcher por Alaska Revisited que foi utilizado como base para Metropolis</description>
+		<description lang="pt_PT">A Metropolis está concebida para exibir tanta info de média quanto possível, com ícones e texto fácil de ler. Ao mesmo tempo, tenta manter um desempenho suave e uma utilização acessível para todos os membros da família, com várias aparências e personalização dos menus e das vistas. O Hitcher merece crédito pela criação de Alaska Revisited, que serviu de base para a Metropolis.</description>
+		<description lang="ru_RU">Обложка Метрополис запроектирована так, чтобы показывать как можно больше информации о медиа, используя легко читаемые иконки и шрифты. При этом мы стараемся сохранить обложку быстрой и легкой в использовании для всех членов семьи.  Метрополис также предлагает дополнительные темы оформления и настраиваемые меню и режимы просмотра. &#10;Благодарности для Hitcher за его обложку Alaska Revisited, которая была взята за основу Метрополиса. </description>
+		<description lang="sv_SE">Metropolis är utformat att visa så mycket mediainfo som möjligt, med text och ikoner som är lätta att läsa. Allt medan skalet är mjukt och enkelt nog att använda för alla familjemedlemmar, med flera teman, anpassningsbara menyer och vyer. Tack till Hitcher för Alaska Revisited som användes som bas för Metropolis.</description>
+		<description lang="zh_CN">Metropolis旨在展示尽可能多的媒体信息同时尽可能易读的文字和图标。采用多项主题和自定义菜单及视图，同时试图保持皮肤流畅，并且对所有家庭成员都简单易用。感谢Hitcher的Alaska Revisited皮肤，它是Metropolis的基础。</description>
+		<language></language>
+		<platform>all</platform>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot01.jpg</screenshot>
+			<screenshot>resources/screenshot02.jpg</screenshot>
+			<screenshot>resources/screenshot03.jpg</screenshot>
+			<screenshot>resources/screenshot04.jpg</screenshot>
+			<screenshot>resources/screenshot05.jpg</screenshot>
+			<screenshot>resources/screenshot06.jpg</screenshot>
+			<screenshot>resources/screenshot07.jpg</screenshot>
+			<screenshot>resources/screenshot08.jpg</screenshot>
+			<screenshot>resources/screenshot09.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
+
+
+<addon id="skin.phenomenalEMAD" name="Phenomenal EMAD" version="3.0.0" provider-name="EMAD MAHDI">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="script.skin.helper.widgets" version="1.0.0"/>
+		<import addon="script.skin.helper.skinbackup" version="1.0.0"/>
+		<import addon="script.skin.helper.backgrounds" version="1.0.0"/>
+		<import addon="script.skin.helper.colorpicker" version="1.0.0"/>
+		<import addon="script.skinshortcuts" version="0.6.6"/>
+		<import addon="script.artwork.downloader" version="12.0.20"/>
+		<import addon="plugin.program.autocompletion" version="1.0.0"/>
+		<import addon="script.image.resource.select" version="0.1.0"/>
+		<import addon="resource.images.weatherfanart.single" version="0.0.6"/>
+		<import addon="resource.images.moviegenreicons.arctic.zephyr" version="0.0.1"/>
+		<import addon="plugin.video.arabicvideos" optional="true"/>
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080p"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Phenomenal - Perfection Made Simple</summary>
+		<description lang="en">Elegance, simplicity and professionalism are the skins guidelines. With Phenomenal you can enjoy all of kodi's newest and sophisticated features while still maintaining a clean and beautiful design</description>
+		<platform>all</platform>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>_screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-03.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-04.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-05.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-06.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-07.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-08.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-09.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-10.jpg</screenshot>
+			<screenshot>_screenshots/screenshot-11.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+
+
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.324.10.3" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0" />
+		<import addon="script.module.addon.signals" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.script" library="control.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">Module providing access to youtube-dl video stream extraction</summary>
+		<summary lang="ru_RU">Модуль дает доступ к видеопотоку youtube-dl</summary>
+		<summary lang="uk_UA">Модуль дає доступ до відеопотоку youtube-dl</summary>
+		<description lang="en_GB">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
+		<description lang="ru_RU">Модуль дает доступ к извлечению видеопотока youtube-dl для сотен сайтов. Версия основана на версии даты youtube-dl: YY.MDD.V, где V - специфическая дополнительная версия дополнения. Также обеспечивает загрузку с возможностью фоновой загрузки с помощью диспетчера очереди.</description>
+		<description lang="uk_UA">Модуль дає доступ до вилучення відео потоку youtube-dl для сотень сайтів. Версія заснована на версії дати youtube-dl: YY.MDD.V, де V - специфічна додаткова версія доповнення. Також забезпечує завантаження з можливістю фонової завантаження за допомогою диспетчера черги.</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=200877</forum>
+		<source>https://github.com/nkvoronov/script.module.youtube.dl.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+
+
+<addon id="script.module.urllib3"
+       name="urllib3"
+       version="1.25.6"
+       provider-name="Andrey Petrov">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">HTTP library with thread-safe connection pooling, file post, and more.</summary>
+    <description lang="en_GB">Packed for KODI from https://pypi.org/project/urllib3/</description>
+    <license>MIT</license>
+    <website>https://urllib3.readthedocs.io/en/latest/</website>
+    <source>https://github.com/urllib3/urllib3</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.chardet"
+       name="chardet"
+       version="3.0.4"
+       provider-name="Dan Blanchard">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Universal encoding detector</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/chardet/chardet</description>
+    <license>LGPL</license>
+    <platform>all</platform>
+    <language></language>
+    <forum></forum>
+    <website>https://chardet.readthedocs.io/en/latest/</website>
+    <source>https://github.com/beenje/script.module.chardet</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.idna"
+       name="idna"
+       version="2.8"
+       provider-name="Kim Davies">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Internationalized Domain Names for Python</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/kjd/idna</description>
+    <platform>all</platform>
+    <language></language>
+    <license>BSD</license>
+    <forum></forum>
+    <website>https://github.com/kjd/idna</website>
+    <source>https://github.com/Freso/script.module.idna</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.certifi"
+       name="certifi"
+       version="2019.9.11"
+       provider-name="Kenneth Reitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python package for providing Mozilla's CA Bundle.</summary>
+    <description lang="en_GB">Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project.</description>
+    <license>MPL-2.0</license>
+    <website>https://certifi.io</website>
+    <source>https://github.com/certifi/python-certifi</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.beautifulsoup"
+       name="BeautifulSoup"
+       version="3.2.1"
+       provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python" 
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
+    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
+    <license>BSD</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.six"
+       name="six"
+       version="1.13.0"
+       provider-name="gutworth">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Python 2 and 3 compatibility utilities.</summary>
+    <description lang="en">Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions. See the documentation for more information on what is provided.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://pypi.org/project/six/</source>
+    <website>https://pypi.org/project/six/</website>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.kodi-six"
+       name="Kodi Six"
+       version="0.1.3"
+       provider-name="Roman V.M.">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="libs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Wrappers around Kodi Python API for seamless Python 2/3 compatibility</summary>
+    <description lang="en_GB">Wrappers around Kodi Python API that normalize handling of textual and byte strings in Python 2 and 3.</description>
+    <platform>all</platform>
+    <license>GPL v.3</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=327883</forum>
+    <source>https://github.com/romanvm/kodi.six</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>0.1.3:
+- Fix non-UTF-8 byte string decoding in Python 2.</news>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.simplejson"
+       name="simplejson"
+       version="3.16.1" 
+       provider-name="Bob Ippolito">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <disclaimer lang="en">Code taken from https://pypi.org/project/simplejson/</disclaimer>
+    <license>MIT License, Academic Free License v. 2.1</license>
+    <website>https://pypi.org/project/simplejson/</website>
+    <source>https://github.com/simplejson/simplejson</source>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.addon.signals"
+    name="Addon Signals"
+    version="0.0.6"
+    provider-name="Rick Phillips (ruuk)">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Inter-addon signalling</summary>
+        <description lang="en_GB">Provides signal/slot mechanism for inter-addon communication</description>
+        <platform>all</platform>
+        <license>LGPL-2.1-only</license>
+        <source>https://github.com/ruuk/script.module.addon.signals</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+
+
+<addon id="script.module.dateutil"
+       name="python-dateutil"
+       version="2.8.1"
+       provider-name="Paul Ganssle, Gustavo Niemeyer">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.six" version="1.12.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Extensions to the standard Python datetime module</summary>
+    <description lang="en_GB">The dateutil module provides powerful extensions to the standard datetime module, available in Python.</description>
+    <license>Apache-2.0, BSD-3-Clause</license>
+    <website>https://dateutil.readthedocs.io/en/stable/</website>
+    <source>https://github.com/dateutil/dateutil</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.backports.functools_lru_cache"
+       name="backports.functools_lru_cache"
+       version="1.6.1"
+       provider-name="Jason R. Coombs">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Backport of functools.lru_cache from Python 3.3</summary>
+    <description lang="en">Packed for Kodi from https://github.com/jaraco/backports.functools_lru_cache</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>https://github.com/jaraco/backports.functools_lru_cache</website>
+    <source>https://github.com/Razzeee/script.module.backports.functools_lru_cache</source>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.unidecode" name="unidecode" version="1.1.1" provider-name="Tomaz Solc (Tomaz.solc@tablix.org)">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</summary>
+		<description lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</description>
+		<disclaimer lang="en">Code taken from https://pypi.org/project/Unidecode</disclaimer>
+		<license>GPL-2.0-or-later</license>
+		<website>https://pypi.org/project/Unidecode</website>
+		<source>https://pypi.org/project/Unidecode</source>
+	</extension>
+</addon>
+
+
+
+<addon id="script.module.pil"
+       name="Python Image Library"
+       version="1.1.7"
+       provider-name="PythonWare">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.metadatautils"
+       name="Metadata and Artwork module"
+       version="1.0.42+py2"
+       provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8" />
+        <import addon="script.module.thetvdb" version="0.0.1" />
+        <import addon="script.module.musicbrainz" version="0.0.1" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.arrow" version="0.6.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Metadata and artwork from common sources like TMDB, IMDB, TADB and fanart.tv </summary>
+        <description>
+            The metadata and artwork module for Kodi provides rich metadata, including artwork for 
+            various metatypes by scraping (and caching) this information from sites like TMDB, musicbrainz and fanart.tv.
+        </description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/marcelveldt/script.module.metadatautils</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+
+
+<addon id="script.module.simplecache" name="Simple Cache Module" version="2.0.2+py2" provider-name="sualfred">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Provides a simple file- and memory based cache for Kodi addons</summary>
+        <description lang="en_GB">Provides a simple file- and memory based cache for Kodi addons. Based on the original work of Marcelveldt.</description>
+        <platform>all</platform>
+        <license>Apache 2.0</license>
+        <forum/>
+        <source>https://github.com/sualfred/script.module.simplecache</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+
+
+<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.45+py2" provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.0" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Ready to use widgets for all kind of media types</summary>
+        <description></description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
+	</extension>
+</addon>
+
+
+
+<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.9.3" provider-name="Leonard Richardson (leonardr@segfault.org)">
+	<requires>
+		<import addon="xbmc.python" version="2.14"/>
+		<import addon="script.module.soupsieve" version="1.9.6"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Screen-scraping library</summary>
+		<description lang="en_GB">Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.</description>
+		<license>MIT</license>
+		<platform>all</platform>
+		<website>https://www.crummy.com/software/BeautifulSoup/</website>
+		<source>https://code.launchpad.net/beautifulsoup</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+
+
+<addon id="script.module.soupsieve" name="Soup Sieve" version="1.9.6+leia.1" provider-name="Isaac Muse">
+	<requires>
+		<import addon="xbmc.python" version="2.14"/>
+		<import addon="script.module.backports.functools_lru_cache" version="1.6.1"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib/" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A CSS selector library</summary>
+		<description lang="en_GB">Soup Sieve is a CSS selector library designed to be used with Beautiful Soup 4. It aims to provide selecting, matching, and filtering using modern CSS selectors.</description>
+		<license>MIT</license>
+		<platform>all</platform>
+		<website>https://pypi.org/project/soupsieve/</website>
+		<source>https://github.com/facelessuser/soupsieve</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+
+
+</addons>
