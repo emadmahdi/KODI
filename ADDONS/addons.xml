@@ -2,7 +2,7 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2023.03.14" provider-name="EMAD MAHDI">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2023.05.16" provider-name="EMAD MAHDI">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" optional="false"/>
