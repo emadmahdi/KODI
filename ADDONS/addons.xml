@@ -480,7 +480,7 @@
 
 
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="23.910.0" provider-name="Rick Phillips (ruuk)">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="23.910.0a" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="script.module.addon.signals" version="0.0.1"/>
         <import addon="script.module.kodi-six" version="0.0.4"/>
