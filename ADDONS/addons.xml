@@ -2,7 +2,7 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2023.11.30" provider-name="EMAD Software">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2023.12.12" provider-name="EMAD Software">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" optional="false"/>
@@ -13,6 +13,7 @@
 		<import addon="script.module.resolveurl" optional="false"/>
         <import addon="script.module.addon.signals" optional="false"/>
         <import addon="script.module.beautifulsoup4" optional="false"/>
+		<import addon="script.module.arabicvideos" optional="false"/>
 		<import addon="inputstream.rtmp" optional="true"/>
 		<import addon="inputstream.adaptive" optional="true"/>
 	</requires>
@@ -35,6 +36,20 @@
             <poster>poster.png</poster>
         </assets>
 	</extension>
+</addon>
+
+
+
+<addon id="script.module.arabicvideos" name="EMAD Arabic Videos Packages" version="2023.12.12" provider-name="Emad Software">
+  <requires>
+    <!-- import addon="xbmc.python" version="2.25.0"/ -->
+  </requires>
+  <extension point="xbmc.python.module" library="packages" />
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon>
 
 
