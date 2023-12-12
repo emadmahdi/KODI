@@ -40,12 +40,13 @@
 
 
 
-<addon id="script.module.arabicvideos" name="EMAD Arabic Videos Packages" version="2023.12.12" provider-name="Emad Software">
-  <requires>
-    <!-- import addon="xbmc.python" version="2.25.0"/ -->
-  </requires>
-  <extension point="xbmc.python.module" library="packages" />
+<addon id="script.module.arabicvideos" name="EMAD Arabic Videos Packages" version="2023.12.12a" provider-name="Emad Software">
+  <extension point="xbmc.python.module" library="packages">
+  </extension>
   <extension point="xbmc.addon.metadata">
+	<summary lang="en">Install python packages from EMAD</summary>
+	<description lang="en">Download and install add-ons from EMAD</description>
+	<platform>all</platform>
     <assets>
       <icon>icon.png</icon>
     </assets>
