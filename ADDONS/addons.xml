@@ -2,7 +2,7 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2023.12.12b" provider-name="EMAD Software">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2023.12.12c" provider-name="EMAD Software">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" optional="false"/>
@@ -40,7 +40,7 @@
 
 
 
-<addon id="script.module.arabicvideos" name="EMAD Arabic Videos Packages" version="2023.12.12a" provider-name="Emad Software">
+<addon id="script.module.arabicvideos" name="EMAD Arabic Videos Packages" version="2023.12.12b" provider-name="Emad Software">
   <extension point="xbmc.python.module" library="packages">
   </extension>
   <extension point="xbmc.addon.metadata">
