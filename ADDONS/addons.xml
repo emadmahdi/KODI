@@ -40,7 +40,7 @@
 
 
 
-<addon id="script.module.arabicvideos" name="EMAD Arabic Videos Packages" version="2023.12.12b" provider-name="Emad Software">
+<addon id="script.module.arabicvideos" name="EMAD Arabic Videos Packages" version="2023.12.12b" provider-name="EMAD Software">
   <extension point="xbmc.python.module" library="packages">
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -55,13 +55,17 @@
 
 
 
-<addon id="repository.emad" name="EMAD Repository" version="2021.10.29" provider-name="EMAD MAHDI">
+<addon id="repository.emad" name="EMAD Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Add-ons from EMAD</summary>
 		<description lang="en">Download and install add-ons from EMAD</description>
 		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
 
