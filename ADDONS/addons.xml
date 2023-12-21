@@ -71,73 +71,97 @@
 
 
 
-<addon id="repository.emad.github" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+<addon id="repository.emad.github" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from EMAD</summary>
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
 
 
 
-<addon id="repository.emad.gitea" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+<addon id="repository.emad.gitea" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from EMAD</summary>
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
 
 
 
-<addon id="repository.emad.gitee" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+<addon id="repository.emad.gitee" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from EMAD</summary>
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
 
 
 
-<addon id="repository.emad.codeberg" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+<addon id="repository.emad.codeberg" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from EMAD</summary>
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
 
 
 
-<addon id="repository.emad.others" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+<addon id="repository.emad.others" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from other developers</summary>
 		<description lang="en">Download and install addons from other developers</description>
 		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
 
 
 
-<addon id="repository.emad.pythonanywhere" name="EMAD Empty Old Repository" version="2021.12.11" provider-name="EMAD MAHDI">
+<addon id="repository.emad.pythonanywhere" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from EMAD</summary>
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
 
