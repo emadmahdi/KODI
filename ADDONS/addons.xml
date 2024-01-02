@@ -57,15 +57,30 @@
 
 <addon id="repository.emad" name="EMAD Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Repository">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Add-ons from EMAD</summary>
 		<description lang="en">Download and install add-ons from EMAD</description>
 		<platform>all</platform>
-		<assets>
+        <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
-		</assets>
+        </assets>
 	</extension>
 </addon>
 
@@ -73,15 +88,30 @@
 
 <addon id="repository.emad.github" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addons from EMAD</summary>
-		<description lang="en">Download and install addons from EMAD</description>
+		<summary lang="en">Install Add-ons from EMAD</summary>
+		<description lang="en">Download and install add-ons from EMAD</description>
 		<platform>all</platform>
-		<assets>
+        <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
-		</assets>
+        </assets>
 	</extension>
 </addon>
 
@@ -89,15 +119,30 @@
 
 <addon id="repository.emad.gitea" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addons from EMAD</summary>
-		<description lang="en">Download and install addons from EMAD</description>
+		<summary lang="en">Install Add-ons from EMAD</summary>
+		<description lang="en">Download and install add-ons from EMAD</description>
 		<platform>all</platform>
-		<assets>
+        <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
-		</assets>
+        </assets>
 	</extension>
 </addon>
 
@@ -105,15 +150,30 @@
 
 <addon id="repository.emad.gitee" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addons from EMAD</summary>
-		<description lang="en">Download and install addons from EMAD</description>
+		<summary lang="en">Install Add-ons from EMAD</summary>
+		<description lang="en">Download and install add-ons from EMAD</description>
 		<platform>all</platform>
-		<assets>
+        <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
-		</assets>
+        </assets>
 	</extension>
 </addon>
 
@@ -121,15 +181,30 @@
 
 <addon id="repository.emad.codeberg" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addons from EMAD</summary>
-		<description lang="en">Download and install addons from EMAD</description>
+		<summary lang="en">Install Add-ons from EMAD</summary>
+		<description lang="en">Download and install add-ons from EMAD</description>
 		<platform>all</platform>
-		<assets>
+        <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
-		</assets>
+        </assets>
 	</extension>
 </addon>
 
@@ -137,15 +212,30 @@
 
 <addon id="repository.emad.others" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addons from other developers</summary>
-		<description lang="en">Download and install addons from other developers</description>
+		<summary lang="en">Install Add-ons from EMAD</summary>
+		<description lang="en">Download and install add-ons from EMAD</description>
 		<platform>all</platform>
-		<assets>
+        <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
-		</assets>
+        </assets>
 	</extension>
 </addon>
 
@@ -153,15 +243,30 @@
 
 <addon id="repository.emad.pythonanywhere" name="EMAD Empty Old Repository" version="2023.12.20" provider-name="EMAD Software">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS19/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml</info>
+			<checksum>https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/emadmahdi/kodirepo/raw/main/ADDONS/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addons from EMAD</summary>
-		<description lang="en">Download and install addons from EMAD</description>
+		<summary lang="en">Install Add-ons from EMAD</summary>
+		<description lang="en">Download and install add-ons from EMAD</description>
 		<platform>all</platform>
-		<assets>
+        <assets>
             <icon>icon.png</icon>
             <fanart>fanart.png</fanart>
-		</assets>
+        </assets>
 	</extension>
 </addon>
 
