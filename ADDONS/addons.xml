@@ -2,7 +2,7 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2024.02.02" provider-name="EMAD Software">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2024.02.08" provider-name="EMAD Software">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" optional="false"/>
