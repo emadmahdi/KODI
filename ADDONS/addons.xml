@@ -2,7 +2,7 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2024.03.28" provider-name="EMAD Software">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2024.03.29" provider-name="EMAD Software">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" optional="false"/>
@@ -16,8 +16,9 @@
 		<import addon="script.module.beautifulsoup4" optional="false"/>
 		<import addon="script.module.soupsieve" optional="false"/>
 		<import addon="script.module.pil" optional="false"/>
-		<import addon="script.module.youtube.dl" optional="false"/>
+		<import addon="script.module.yt-dlp" optional="false"/>
 		<import addon="script.module.resolveurl" optional="false"/>
+		<!-- import addon="script.module.youtube.dl" optional="false"/ -->
         <!-- <import addon="script.module.arabicvideos" optional="false"/> -->
 		<import addon="inputstream.rtmp" optional="true"/>
 		<import addon="inputstream.adaptive" optional="true"/>
@@ -403,7 +404,7 @@
 
 
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.123" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.129" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -431,7 +432,6 @@
         </assets>
     </extension>
 </addon>
-
 
 
 <addon id="script.module.requests"
@@ -1123,6 +1123,25 @@
 		<forum>https://forum.kodi.tv/showthread.php?tid=239558</forum>
 		<source>https://gitlab.com/ronie/script.image.resource.select</source>
 	</extension>
+</addon>
+
+
+
+<addon id="script.module.yt-dlp" name="yt-dlp" version="2024.03.10" provider-name="yt-dlp">
+    <requires>
+        <!-- import addon="xbmc.python" version="3.0.1" / -->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A youtube-dl fork with additional features and patches</summary>
+        <description lang="en_GB">yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project</description>
+        <license></license>
+        <platform>all</platform>
+        <source>https://github.com/yt-dlp/yt-dlp</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon>
 
 
