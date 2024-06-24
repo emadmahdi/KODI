@@ -2,26 +2,26 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2024.05.26" provider-name="EMAD Software">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2024.06.24" provider-name="EMAD Software">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" optional="false"/>
-		<import addon="script.module.requests" optional="false"/>
-		<import addon="script.module.chardet" optional="false"/>
 		<import addon="script.module.certifi" optional="false"/>
+		<import addon="script.module.chardet" optional="false"/>
 		<import addon="script.module.idna" optional="false"/>
 		<import addon="script.module.urllib3" optional="false"/>
+		<import addon="script.module.requests" optional="false"/>
 		<import addon="script.module.kodi-six" optional="false"/>
 		<import addon="script.module.addon.signals" optional="false"/>
-		<import addon="script.module.beautifulsoup4" optional="false"/>
 		<import addon="script.module.soupsieve" optional="false"/>
+		<import addon="script.module.beautifulsoup4" optional="false"/>
 		<import addon="script.module.pil" optional="false"/>
-		<import addon="script.module.yt-dlp" optional="false"/>
-		<import addon="script.module.resolveurl" optional="false"/>
-		<!-- import addon="script.module.youtube.dl" optional="false"/ -->
-        <!-- <import addon="script.module.arabicvideos" optional="false"/> -->
+		<import addon="script.module.yt-dlp" optional="true"/>
+		<import addon="script.module.resolveurl" optional="true"/>
 		<import addon="inputstream.rtmp" optional="true"/>
 		<import addon="inputstream.adaptive" optional="true"/>
+		<!-- import addon="script.module.youtube.dl" optional="false"/ -->
+        <!-- <import addon="script.module.arabicvideos" optional="false"/> -->
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="arabicvideos\__init__.py">
 		<provides>video</provides>
