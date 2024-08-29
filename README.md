@@ -63,70 +63,76 @@ New video plugin for KODI that provide Arabic video contents from the following 
 <br />
 <br />
 
-<font color="#245bdb">
-AHWAK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-AKOAM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-AKWAM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-AKWAMTUBE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-ALARAB &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-ALFATIMI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-ALMAAREF &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-ALMSTBA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-ANIMEZID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-ARABICTOONS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-ARABSEED &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-BOKRA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-BRSTEJ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMA400 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMA4P &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMA4U &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMAABDO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMACLUB &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMACLUBWORK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMAFANS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMAFREE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMALIGHT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMANOW &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-CIMAWBAS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-DAILYMOTION &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-DRAMACAFE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-DRAMAS7 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-EGYBEST1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-EGYBEST2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-EGYBEST3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-EGYBEST4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-EGYDEAD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-ELCINEMA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-FABRAKA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-FAJERSHOW &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-FARESKO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-FASELHD1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-FASELHD2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-FOSTA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-FUSHARTV &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-FUSHARVIDEO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-HALACIMA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-IFILM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-KARBALATV &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-KATKOTTV &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-KIRMALK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-LAROZA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-LODYNET &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-PANET &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-SERIESTIME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-SHABAKATY &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-SHAHID4U &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-SHAHIDNEWS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-SHOFHA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-SHOOFMAX &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-SHOOFNET &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-TIKAAT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-TVFUN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-VARBON &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-WECIMA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-YAQOT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-YOUTUBE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-</font>
+
+1. &nbsp; &nbsp; AHWAK <br/>
+2. &nbsp; &nbsp; AKOAM <br/>
+3. &nbsp; &nbsp; AKWAM <br/>
+4. &nbsp; &nbsp; AKWAMTUBE <br/>
+5. &nbsp; &nbsp; ALARAB <br/>
+6. &nbsp; &nbsp; ALFATIMI <br/>
+7. &nbsp; &nbsp; ALMAAREF <br/>
+8. &nbsp; &nbsp; ALMSTBA <br/>
+9. &nbsp; &nbsp; ANIMEZID <br/>
+10. &nbsp; &nbsp; ARABICTOONS <br/>
+11. &nbsp; &nbsp; ARABSEED <br/>
+12. &nbsp; &nbsp; BOKRA <br/>
+13. &nbsp; &nbsp; BRSTEJ <br/>
+14. &nbsp; &nbsp; CIMA400 <br/>
+15. &nbsp; &nbsp; CIMA4P <br/>
+16. &nbsp; &nbsp; CIMA4U <br/>
+17. &nbsp; &nbsp; CIMAABDO <br/>
+18. &nbsp; &nbsp; CIMACLUB <br/>
+19. &nbsp; &nbsp; CIMACLUBWORK <br/>
+20. &nbsp; &nbsp; CIMAFANS <br/>
+21. &nbsp; &nbsp; CIMAFREE <br/>
+22. &nbsp; &nbsp; CIMALIGHT <br/>
+23. &nbsp; &nbsp; CIMANOW <br/>
+24. &nbsp; &nbsp; CIMAWBAS <br/>
+25. &nbsp; &nbsp; DAILYMOTION <br/>
+26. &nbsp; &nbsp; DRAMACAFE <br/>
+27. &nbsp; &nbsp; DRAMAS7 <br/>
+28. &nbsp; &nbsp; EGYBEST1 <br/>
+29. &nbsp; &nbsp; EGYBEST2 <br/>
+30. &nbsp; &nbsp; EGYBEST3 <br/>
+31. &nbsp; &nbsp; EGYBEST4 <br/>
+32. &nbsp; &nbsp; EGYDEAD <br/>
+33. &nbsp; &nbsp; ELCINEMA <br/>
+34. &nbsp; &nbsp; FABRAKA <br/>
+35. &nbsp; &nbsp; FAJERSHOW <br/>
+36. &nbsp; &nbsp; FARESKO <br/>
+37. &nbsp; &nbsp; FASELHD1 <br/>
+38. &nbsp; &nbsp; FASELHD2 <br/>
+39. &nbsp; &nbsp; FOSTA <br/>
+40. &nbsp; &nbsp; FUSHARTV <br/>
+41. &nbsp; &nbsp; FUSHARVIDEO <br/>
+42. &nbsp; &nbsp; HALACIMA <br/>
+43. &nbsp; &nbsp; IFILM <br/>
+44. &nbsp; &nbsp; KARBALATV <br/>
+45. &nbsp; &nbsp; KATKOTTV <br/>
+46. &nbsp; &nbsp; KIRMALK <br/>
+47. &nbsp; &nbsp; LAROZA <br/>
+48. &nbsp; &nbsp; LODYNET <br/>
+49. &nbsp; &nbsp; PANET <br/>
+50. &nbsp; &nbsp; SERIESTIME <br/>
+51. &nbsp; &nbsp; SHABAKATY <br/>
+52. &nbsp; &nbsp; SHAHID4U <br/>
+53. &nbsp; &nbsp; SHAHIDNEWS <br/>
+54. &nbsp; &nbsp; SHOFHA <br/>
+55. &nbsp; &nbsp; SHOOFMAX <br/>
+56. &nbsp; &nbsp; SHOOFNET <br/>
+57. &nbsp; &nbsp; TIKAAT <br/>
+58. &nbsp; &nbsp; TVFUN <br/>
+59. &nbsp; &nbsp; VARBON <br/>
+60. &nbsp; &nbsp; WECIMA <br/>
+61. &nbsp; &nbsp; YAQOT <br/>
+62. &nbsp; &nbsp; YOUTUBE <br/>
+
+
+
+
+
+
+
 <br />
 <br />
 <br />
