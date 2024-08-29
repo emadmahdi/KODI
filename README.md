@@ -62,27 +62,92 @@ These addons modified to suit my personal needs
 New video plugin for KODI that provide Arabic video contents from the following websites:
 <br />
 <br />
-<a href="http://shoofmax.com">1. &nbsp; http://shoofmax.com</a><br />
-<a href="http://panet.co.il">2. &nbsp; http://panet.co.il</a><br />
-<a href="http://ifilmtv.com">3. &nbsp; http://ifilmtv.com</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Arabic / English / Farsi / Persian<br />
-<a href="http://alfatimi.net">4. &nbsp; http://alfatimi.net</a><br />
-<a href="http://almaareftv.com">5. &nbsp; http://almaareftv.com</a><br />
-<a href="http://alarab.com">6. &nbsp; http://alarab.com</a><br />
-<a href="http://akoam.net">7. &nbsp; http://akoam.net</a><br />
-<a href="http://akwam.net">8. &nbsp; http://akwam.net</a><br />
-<a href="http://4helal.net">9. &nbsp; http://4helal.net</a><br />
-<a href="http://shahid4u.net">10. http://shahid4u.net</a><br />
-<a href="http://egybest.vip">11. http://egybest.vip</a><br />
-<a href="http://alkawthartv.com">12. http://alkawthartv.com</a><br />
-<a href="http://youtube.com">13. http://youtube.com</a><br />
-<a href="http://arablionz.com">14. http://arablionz.com</a><br />
-<a href="http://arabseed.net">15. http://arabseed.net</a><br />
-16. Tv Channels from their owners<br />
-17. IPTV Service (need a paid subscription)<br />
-18. <strike>http://egy.best</strike></a> &nbsp; &nbsp; &nbsp; Deleted<br />
-19. <strike>http://halacima.net</strike></a> &nbsp; &nbsp; &nbsp; Deleted<br />
-20. <strike>http://movizland.online</strike></a> &nbsp; &nbsp; &nbsp; Deleted<br />
-21. <strike>http://series4watch.net</strike></a> &nbsp; &nbsp; &nbsp; Deleted<br />
+
+
+
+1. &nbsp; &nbsp; AHWAK
+2. &nbsp; &nbsp; AKOAM
+3. &nbsp; &nbsp; ~~AKOAMCAM~~
+4. &nbsp; &nbsp; AKWAM
+5. &nbsp; &nbsp; AKWAMTUBE
+6. &nbsp; &nbsp; ~~ALARAB~~
+7. &nbsp; &nbsp; ~~ALFATIMI~~
+8. &nbsp; &nbsp; ~~ALKAWTHAR~~
+9. &nbsp; &nbsp; ALMAAREF
+10. &nbsp; &nbsp; ALMSTBA
+11. &nbsp; &nbsp; ANIMEZID
+12. &nbsp; &nbsp; ARABICTOONS
+13. &nbsp; &nbsp; ARABSEED
+14. &nbsp; &nbsp; ~~ARBLIONZ~~
+15. &nbsp; &nbsp; BOKRA
+16. &nbsp; &nbsp; BRSTEJ
+17. &nbsp; &nbsp; CIMA400
+18. &nbsp; &nbsp; CIMA4P
+19. &nbsp; &nbsp; ~~CIMA4U~~
+20. &nbsp; &nbsp; CIMAABDO
+21. &nbsp; &nbsp; CIMACLUB
+22. &nbsp; &nbsp; CIMACLUBWORK
+23. &nbsp; &nbsp; ~~CIMACLUP~~
+24. &nbsp; &nbsp; CIMAFANS
+25. &nbsp; &nbsp; CIMAFREE
+26. &nbsp; &nbsp; CIMALIGHT
+27. &nbsp; &nbsp; CIMANOW
+28. &nbsp; &nbsp; CIMAWBAS
+29. &nbsp; &nbsp; DAILYMOTION
+30. &nbsp; &nbsp; DRAMACAFE
+31. &nbsp; &nbsp; DRAMAS7
+32. &nbsp; &nbsp; EGY4BEST
+33. &nbsp; &nbsp; ~~EGYBEST~~
+34. &nbsp; &nbsp; EGYBEST1
+35. &nbsp; &nbsp; EGYBEST2
+36. &nbsp; &nbsp; EGYBEST3
+37. &nbsp; &nbsp; EGYBEST4
+38. &nbsp; &nbsp; ~~EGYBESTVIP~~
+39. &nbsp; &nbsp; EGYDEAD
+40. &nbsp; &nbsp; ~~EGYNOW~~
+41. &nbsp; &nbsp; ELCINEMA
+42. &nbsp; &nbsp; FABRAKA
+43. &nbsp; &nbsp; FAJERSHOW
+44. &nbsp; &nbsp; FARESKO
+45. &nbsp; &nbsp; FASELHD1
+46. &nbsp; &nbsp; FASELHD2
+47. &nbsp; &nbsp; FOSTA
+48. &nbsp; &nbsp; FUSHARTV
+49. &nbsp; &nbsp; FUSHARVIDEO
+50. &nbsp; &nbsp; HALACIMA
+51. &nbsp; &nbsp; ~~HELAL~~
+52. &nbsp; &nbsp; IFILM
+53. &nbsp; &nbsp; KARBALATV
+54. &nbsp; &nbsp; KATKOTTV
+55. &nbsp; &nbsp; ~~KATKOUTE~~
+56. &nbsp; &nbsp; KIRMALK
+57. &nbsp; &nbsp; LAROZA
+58. &nbsp; &nbsp; LODYNET
+59. &nbsp; &nbsp; ~~MOVIZLAND~~
+60. &nbsp; &nbsp; ~~MOVS4U~~
+61. &nbsp; &nbsp; ~~MYCIMA~~
+62. &nbsp; &nbsp; PANET
+63. &nbsp; &nbsp; ~~QFILM~~
+64. &nbsp; &nbsp; ~~SERIES4WATCH~~
+65. &nbsp; &nbsp; SERIESTIME
+66. &nbsp; &nbsp; SHABAKATY
+67. &nbsp; &nbsp; SHAHID4U
+68. &nbsp; &nbsp; SHAHIDNEWS
+69. &nbsp; &nbsp; ~~SHIAVOICE~~
+70. &nbsp; &nbsp; SHOFHA
+71. &nbsp; &nbsp; SHOOFMAX
+72. &nbsp; &nbsp; SHOOFNET
+73. &nbsp; &nbsp; ~~SHOOFPRO~~
+74. &nbsp; &nbsp; TIKAAT
+75. &nbsp; &nbsp; TVFUN
+76. &nbsp; &nbsp; VARBON
+77. &nbsp; &nbsp; WECIMA
+78. &nbsp; &nbsp; YAQOT
+79. &nbsp; &nbsp; YOUTUBE
+
+
+
+
 <br />
 <br />
 <br />
