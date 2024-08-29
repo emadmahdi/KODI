@@ -64,71 +64,86 @@ New video plugin for KODI that provide Arabic video contents from the following 
 <br />
 
 
-1. &nbsp; &nbsp; AHWAK <br/>
-2. &nbsp; &nbsp; AKOAM <br/>
-3. &nbsp; &nbsp; AKWAM <br/>
-4. &nbsp; &nbsp; AKWAMTUBE <br/>
-5. &nbsp; &nbsp; ALARAB <br/>
-6. &nbsp; &nbsp; ALFATIMI <br/>
-7. &nbsp; &nbsp; ALMAAREF <br/>
-8. &nbsp; &nbsp; ALMSTBA <br/>
-9. &nbsp; &nbsp; ANIMEZID <br/>
-10. &nbsp; &nbsp; ARABICTOONS <br/>
-11. &nbsp; &nbsp; ARABSEED <br/>
-12. &nbsp; &nbsp; BOKRA <br/>
-13. &nbsp; &nbsp; BRSTEJ <br/>
-14. &nbsp; &nbsp; CIMA400 <br/>
-15. &nbsp; &nbsp; CIMA4P <br/>
-16. &nbsp; &nbsp; CIMA4U <br/>
-17. &nbsp; &nbsp; CIMAABDO <br/>
-18. &nbsp; &nbsp; CIMACLUB <br/>
-19. &nbsp; &nbsp; CIMACLUBWORK <br/>
-20. &nbsp; &nbsp; CIMAFANS <br/>
-21. &nbsp; &nbsp; CIMAFREE <br/>
-22. &nbsp; &nbsp; CIMALIGHT <br/>
-23. &nbsp; &nbsp; CIMANOW <br/>
-24. &nbsp; &nbsp; CIMAWBAS <br/>
-25. &nbsp; &nbsp; DAILYMOTION <br/>
-26. &nbsp; &nbsp; DRAMACAFE <br/>
-27. &nbsp; &nbsp; DRAMAS7 <br/>
-28. &nbsp; &nbsp; EGYBEST1 <br/>
-29. &nbsp; &nbsp; EGYBEST2 <br/>
-30. &nbsp; &nbsp; EGYBEST3 <br/>
-31. &nbsp; &nbsp; EGYBEST4 <br/>
-32. &nbsp; &nbsp; EGYDEAD <br/>
-33. &nbsp; &nbsp; ELCINEMA <br/>
-34. &nbsp; &nbsp; FABRAKA <br/>
-35. &nbsp; &nbsp; FAJERSHOW <br/>
-36. &nbsp; &nbsp; FARESKO <br/>
-37. &nbsp; &nbsp; FASELHD1 <br/>
-38. &nbsp; &nbsp; FASELHD2 <br/>
-39. &nbsp; &nbsp; FOSTA <br/>
-40. &nbsp; &nbsp; FUSHARTV <br/>
-41. &nbsp; &nbsp; FUSHARVIDEO <br/>
-42. &nbsp; &nbsp; HALACIMA <br/>
-43. &nbsp; &nbsp; IFILM <br/>
-44. &nbsp; &nbsp; KARBALATV <br/>
-45. &nbsp; &nbsp; KATKOTTV <br/>
-46. &nbsp; &nbsp; KIRMALK <br/>
-47. &nbsp; &nbsp; LAROZA <br/>
-48. &nbsp; &nbsp; LODYNET <br/>
-49. &nbsp; &nbsp; PANET <br/>
-50. &nbsp; &nbsp; SERIESTIME <br/>
-51. &nbsp; &nbsp; SHABAKATY <br/>
-52. &nbsp; &nbsp; SHAHID4U <br/>
-53. &nbsp; &nbsp; SHAHIDNEWS <br/>
-54. &nbsp; &nbsp; SHOFHA <br/>
-55. &nbsp; &nbsp; SHOOFMAX <br/>
-56. &nbsp; &nbsp; SHOOFNET <br/>
-57. &nbsp; &nbsp; TIKAAT <br/>
-58. &nbsp; &nbsp; TVFUN <br/>
-59. &nbsp; &nbsp; VARBON <br/>
-60. &nbsp; &nbsp; WECIMA <br/>
-61. &nbsp; &nbsp; YAQOT <br/>
-62. &nbsp; &nbsp; YOUTUBE <br/>
 
-
-
+1. &nbsp; &nbsp; AHWAK
+2. &nbsp; &nbsp; AKOAM
+3. &nbsp; &nbsp; ~~AKOAMCAM~~
+4. &nbsp; &nbsp; AKWAM
+5. &nbsp; &nbsp; AKWAMTUBE
+6. &nbsp; &nbsp; ~~ALARAB~~
+7. &nbsp; &nbsp; ~~ALFATIMI~~
+8. &nbsp; &nbsp; ~~ALKAWTHAR~~
+9. &nbsp; &nbsp; ALMAAREF
+10. &nbsp; &nbsp; ALMSTBA
+11. &nbsp; &nbsp; ANIMEZID
+12. &nbsp; &nbsp; ARABICTOONS
+13. &nbsp; &nbsp; ARABSEED
+14. &nbsp; &nbsp; ~~ARBLIONZ~~
+15. &nbsp; &nbsp; BOKRA
+16. &nbsp; &nbsp; BRSTEJ
+17. &nbsp; &nbsp; CIMA400
+18. &nbsp; &nbsp; CIMA4P
+19. &nbsp; &nbsp; ~~CIMA4U~~
+20. &nbsp; &nbsp; CIMAABDO
+21. &nbsp; &nbsp; CIMACLUB
+22. &nbsp; &nbsp; CIMACLUBWORK
+23. &nbsp; &nbsp; ~~CIMACLUP~~
+24. &nbsp; &nbsp; CIMAFANS
+25. &nbsp; &nbsp; CIMAFREE
+26. &nbsp; &nbsp; CIMALIGHT
+27. &nbsp; &nbsp; CIMANOW
+28. &nbsp; &nbsp; CIMAWBAS
+29. &nbsp; &nbsp; DAILYMOTION
+30. &nbsp; &nbsp; DRAMACAFE
+31. &nbsp; &nbsp; DRAMAS7
+32. &nbsp; &nbsp; EGY4BEST
+33. &nbsp; &nbsp; ~~EGYBEST~~
+34. &nbsp; &nbsp; EGYBEST1
+35. &nbsp; &nbsp; EGYBEST2
+36. &nbsp; &nbsp; EGYBEST3
+37. &nbsp; &nbsp; EGYBEST4
+38. &nbsp; &nbsp; ~~EGYBESTVIP~~
+39. &nbsp; &nbsp; EGYDEAD
+40. &nbsp; &nbsp; ~~EGYNOW~~
+41. &nbsp; &nbsp; ELCINEMA
+42. &nbsp; &nbsp; FABRAKA
+43. &nbsp; &nbsp; FAJERSHOW
+44. &nbsp; &nbsp; FARESKO
+45. &nbsp; &nbsp; FASELHD1
+46. &nbsp; &nbsp; FASELHD2
+47. &nbsp; &nbsp; FOSTA
+48. &nbsp; &nbsp; FUSHARTV
+49. &nbsp; &nbsp; FUSHARVIDEO
+50. &nbsp; &nbsp; HALACIMA
+51. &nbsp; &nbsp; ~~HELAL~~
+52. &nbsp; &nbsp; IFILM
+53. &nbsp; &nbsp; KARBALATV
+54. &nbsp; &nbsp; KATKOTTV
+55. &nbsp; &nbsp; ~~KATKOUTE~~
+56. &nbsp; &nbsp; KIRMALK
+57. &nbsp; &nbsp; LAROZA
+58. &nbsp; &nbsp; LODYNET
+59. &nbsp; &nbsp; ~~MOVIZLAND~~
+60. &nbsp; &nbsp; ~~MOVS4U~~
+61. &nbsp; &nbsp; ~~MYCIMA~~
+62. &nbsp; &nbsp; PANET
+63. &nbsp; &nbsp; ~~QFILM~~
+64. &nbsp; &nbsp; ~~SERIES4WATCH~~
+65. &nbsp; &nbsp; SERIESTIME
+66. &nbsp; &nbsp; SHABAKATY
+67. &nbsp; &nbsp; SHAHID4U
+68. &nbsp; &nbsp; SHAHIDNEWS
+69. &nbsp; &nbsp; ~~SHIAVOICE~~
+70. &nbsp; &nbsp; SHOFHA
+71. &nbsp; &nbsp; SHOOFMAX
+72. &nbsp; &nbsp; SHOOFNET
+73. &nbsp; &nbsp; ~~SHOOFPRO~~
+74. &nbsp; &nbsp; TIKAAT
+75. &nbsp; &nbsp; TVFUN
+76. &nbsp; &nbsp; VARBON
+77. &nbsp; &nbsp; WECIMA
+78. &nbsp; &nbsp; YAQOT
+79. &nbsp; &nbsp; YOUTUBE
 
 
 
