@@ -62,6 +62,8 @@ These addons modified to suit my personal needs
 New video plugin for KODI that provide Arabic video contents from the following websites:
 <br />
 <br />
+
+<font color="#245bdb">
 AHWAK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
 AKOAM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
 AKWAM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
@@ -124,7 +126,8 @@ VARBON &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 WECIMA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
 YAQOT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
 YOUTUBE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <br />
+</font>
+<br />
 <br />
 <br />
 <h2>2. &nbsp; مخزن عماد &nbsp; repository.emad</h2>
