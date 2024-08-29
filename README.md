@@ -62,27 +62,70 @@ These addons modified to suit my personal needs
 New video plugin for KODI that provide Arabic video contents from the following websites:
 <br />
 <br />
-<a href="http://shoofmax.com">1. &nbsp; http://shoofmax.com</a><br />
-<a href="http://panet.co.il">2. &nbsp; http://panet.co.il</a><br />
-<a href="http://ifilmtv.com">3. &nbsp; http://ifilmtv.com</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Arabic / English / Farsi / Persian<br />
-<a href="http://alfatimi.net">4. &nbsp; http://alfatimi.net</a><br />
-<a href="http://almaareftv.com">5. &nbsp; http://almaareftv.com</a><br />
-<a href="http://alarab.com">6. &nbsp; http://alarab.com</a><br />
-<a href="http://akoam.net">7. &nbsp; http://akoam.net</a><br />
-<a href="http://akwam.net">8. &nbsp; http://akwam.net</a><br />
-<a href="http://4helal.net">9. &nbsp; http://4helal.net</a><br />
-<a href="http://shahid4u.net">10. http://shahid4u.net</a><br />
-<a href="http://egybest.vip">11. http://egybest.vip</a><br />
-<a href="http://alkawthartv.com">12. http://alkawthartv.com</a><br />
-<a href="http://youtube.com">13. http://youtube.com</a><br />
-<a href="http://arablionz.com">14. http://arablionz.com</a><br />
-<a href="http://arabseed.net">15. http://arabseed.net</a><br />
-16. Tv Channels from their owners<br />
-17. IPTV Service (need a paid subscription)<br />
-18. <strike>http://egy.best</strike></a> &nbsp; &nbsp; &nbsp; Deleted<br />
-19. <strike>http://halacima.net</strike></a> &nbsp; &nbsp; &nbsp; Deleted<br />
-20. <strike>http://movizland.online</strike></a> &nbsp; &nbsp; &nbsp; Deleted<br />
-21. <strike>http://series4watch.net</strike></a> &nbsp; &nbsp; &nbsp; Deleted<br />
+AHWAK
+AKOAM
+AKWAM
+AKWAMTUBE
+ALARAB
+ALFATIMI
+ALMAAREF
+ALMSTBA
+ANIMEZID
+ARABICTOONS
+ARABSEED
+BOKRA
+BRSTEJ
+CIMA400
+CIMA4P
+CIMA4U
+CIMAABDO
+CIMACLUB
+CIMACLUBWORK
+CIMAFANS
+CIMAFREE
+CIMALIGHT
+CIMANOW
+CIMAWBAS
+DAILYMOTION
+DRAMACAFE
+DRAMAS7
+EGYBEST1
+EGYBEST2
+EGYBEST3
+EGYBEST4
+EGYDEAD
+ELCINEMA
+FABRAKA
+FAJERSHOW
+FARESKO
+FASELHD1
+FASELHD2
+FOSTA
+FUSHARTV
+FUSHARVIDEO
+HALACIMA
+IFILM
+KARBALATV
+KATKOTTV
+KIRMALK
+KODIEMAD_APP
+LAROZA
+LODYNET
+PANET
+QFILM
+SERIESTIME
+SHABAKATY
+SHAHID4U
+SHAHIDNEWS
+SHOFHA
+SHOOFMAX
+SHOOFNET
+TIKAAT
+TVFUN
+VARBON
+WECIMA
+YAQOT
+YOUTUBE
 <br />
 <br />
 <br />
