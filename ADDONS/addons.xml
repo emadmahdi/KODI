@@ -2,7 +2,7 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2024.09.28" provider-name="EMAD MAHDI">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2024.10.02" provider-name="EMAD MAHDI">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" optional="false"/>
@@ -21,32 +21,35 @@
 		<import addon="inputstream.rtmp" optional="true"/>
 		<import addon="inputstream.adaptive" optional="true"/>
 		<!-- import addon="script.module.youtube.dl" optional="false"/ -->
-        <!-- <import addon="script.module.arabicvideos" optional="false"/> -->
+	<!-- <import addon="script.module.arabicvideos" optional="false"/> -->
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="arabicvideos\__init__.py">
+	<extension point="xbmc.python.pluginsource" library="arabicvideos/__init__.py">
 		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.python.script" library="resources/emergency.py">
+		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en"></summary>
 		<description lang="en">Watch from a huge selection of Arabic Videos ...</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on. ArabicVideos is simply a Kodi Add-on that can browse videos web sites. ArabicVideos doesn’t host any content on it own server and just linking to or embedding content that was uploaded to popular Online Video hosting sites like dailymotion.com, Youtube.com, Google Drive, ZShare.net, cloudy, netu.tv and such sites. All trademarks, Videos, trade names, service marks, copyrighted work, logos referenced herein belong to their respective owners/companies. ArabicVideos is not responsible for what other people upload to 3rd party sites. We urge all copyright owners, to recognize that the links contained within this site are located somewhere else on the web or video embedded are from other various site like included above!. If you have any legal issues please contact appropriate media file owners/hosters.</disclaimer>
 		<platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-            <banner>banner.png</banner>
-            <thumb>thumb.png</thumb>
-            <landscape>landscape.png</landscape>
-            <clearlogo>clearlogo.png</clearlogo>
-            <clearart>clearart.png</clearart>
-            <poster>poster.png</poster>
-        </assets>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
+			<banner>banner.png</banner>
+			<thumb>thumb.png</thumb>
+			<landscape>landscape.png</landscape>
+			<clearlogo>clearlogo.png</clearlogo>
+			<clearart>clearart.png</clearart>
+			<poster>poster.png</poster>
+		</assets>
 	</extension>
 </addon>
 
 
 
-<addon id="script.module.arabicvideos" name="EMAD Arabic Videos Packages" version="2023.12.12b" provider-name="EMAD Software">
+<addon id="script.module.arabicvideos" name="EMAD Arabic Videos Packages" version="2023.12.12b" provider-name="EMAD MAHDI">
   <extension point="xbmc.python.module" library="packages">
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -92,7 +95,7 @@
 
 
 
-<addon id="repository.emad.github" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD Software">
+<addon id="repository.emad.github" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 		<dir minversion="19.0">
 			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS19/addons19.xml</info>
@@ -123,7 +126,7 @@
 
 
 
-<addon id="repository.emad.gitea" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD Software">
+<addon id="repository.emad.gitea" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 		<dir minversion="19.0">
 			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS19/addons19.xml</info>
@@ -154,7 +157,7 @@
 
 
 
-<addon id="repository.emad.gitee" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD Software">
+<addon id="repository.emad.gitee" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 		<dir minversion="19.0">
 			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS19/addons19.xml</info>
@@ -185,7 +188,7 @@
 
 
 
-<addon id="repository.emad.codeberg" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD Software">
+<addon id="repository.emad.codeberg" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 		<dir minversion="19.0">
 			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS19/addons19.xml</info>
@@ -216,7 +219,7 @@
 
 
 
-<addon id="repository.emad.others" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD Software">
+<addon id="repository.emad.others" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 		<dir minversion="19.0">
 			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS19/addons19.xml</info>
@@ -247,7 +250,7 @@
 
 
 
-<addon id="repository.emad.pythonanywhere" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD Software">
+<addon id="repository.emad.pythonanywhere" name="EMAD Empty Old Repository" version="2024.01.30" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Empty Old Repository">
 		<dir minversion="19.0">
 			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS19/addons19.xml</info>
