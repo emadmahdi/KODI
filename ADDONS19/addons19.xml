@@ -691,7 +691,7 @@ v1.1.25
 </addon>
 
 
-<addon id="script.module.yt-dlp" name="yt-dlp" version="2024.09.27" provider-name="yt-dlp">
+<addon id="script.module.yt-dlp" name="yt-dlp" version="2024.10.22" provider-name="yt-dlp">
     <requires>
         <!-- import addon="xbmc.python" version="3.0.1" / -->
     </requires>
