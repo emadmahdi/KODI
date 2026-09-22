@@ -294,7 +294,7 @@ v1.0.25 (marcelveldt)
 
 
 
-<addon id="script.module.certifi" name="certifi" version="2023.5.7" provider-name="Certifi">
+<addon id="script.module.certifi" name="certifi" version="2026.09.22" provider-name="Emad Mahdi">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>

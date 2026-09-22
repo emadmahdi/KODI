@@ -128,7 +128,7 @@
 
 
 
-<addon id="script.module.certifi" name="certifi" version="2021.10.8" provider-name="Certifi">
+<addon id="script.module.certifi" name="certifi" version="2026.09.22" provider-name="Emad Mahdi">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
   </requires>
